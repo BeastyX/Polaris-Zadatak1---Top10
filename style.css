@@ -8,6 +8,11 @@ body
     font-family: Oxanium;
 }
 
+button
+{
+    font-family: Oxanium;
+}
+
 /*<><><> header <><><>*/
 
 header
@@ -118,4 +123,40 @@ svg
 {
     position: absolute;
     z-index: -10;
+}
+
+/*<><><> Home <><><>*/
+
+.header-movies
+{
+    padding: 20px;
+    text-align: left;
+}
+
+.back
+{
+    height: 45px;
+    width: 160px;
+    background: linear-gradient(90deg, rgb(113, 93, 242), rgb(0, 63, 138));
+    color: white;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid rgb(113, 93, 242);
+    border-radius: 10px;
+    letter-spacing: 3px;
+
+    transition: 1s;
+}
+
+.back:hover
+{
+    width: 200px;
+    height: 55px;
+    font-size: 30px;
+    border-radius: 20px;
+
+    box-shadow: 7px 7px 15px rgb(0, 63, 138);
+    transition: 0.7s;
 }
