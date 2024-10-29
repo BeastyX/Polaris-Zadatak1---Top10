@@ -1,0 +1,42 @@
+/*<><><> header <><><>*/
+
+header
+{
+    border: 1px solid red;
+}
+
+#list
+{
+    text-align: center;
+}
+
+.list-item
+{
+    display: inline;
+    margin-left: 65px;
+}
+
+/*<><><> Home <><><>*/
+
+#container-main
+{
+    border: 1px solid red;
+    text-align: center;
+
+
+}
+
+.movie-box
+{
+    padding: 10px 20px;
+    width: 500px;
+    border: 1px solid red;
+    display: inline-block;
+    text-align: center;
+    margin: 20px 10px 20px 0;
+}
+
+.movie-img
+{
+    width: 450px;
+}
