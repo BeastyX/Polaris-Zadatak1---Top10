@@ -1,26 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap');
+
 body
 {
     margin: 0px;
     padding: 0px;
     color: white;
+    font-family: Oxanium;
 }
 
 /*<><><> header <><><>*/
 
 header
 {
+    text-align: center;
     border: 1px solid red;
+    padding: 10px;
+
+    font-size: 28px;
+}
+
+header h1
+{
+    margin-bottom: 60px;
+}
+
+.highlight-text 
+{
+    font-size: 70px;
+
+    background: linear-gradient(90deg, rgb(113, 93, 242), rgb(0, 63, 138)); /* Purple gradient */
+    -webkit-background-clip: text; /* background-clip po defaultu pravi pozadinu za ceo box, kad stavimo text, onda je samo za tekst */
+    -webkit-text-fill-color: transparent; /* Ako ovo ne stavimo, idalje ostaje originalna boja (white) */
 }
 
 #list
 {
+    font-weight: bold;
     text-align: center;
 }
 
 .list-item
 {
     display: inline;
-    margin-left: 65px;
+    margin-left: 45px;
+    transition: 2s;
+}
+
+a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.list-item:hover
+{
+    transition: 0.5s;
+    text-shadow: 5px 5px 10px rgb(113, 93, 242);
+    font-size: 35px;
+}
+
+.list-item:first-child /* :first-child je pseudo klasa - stilizujemo elemente na osnovu njihovih stanja ili pozicije, selektujem prvi child element u parent elementu. example: prvi <li> (child) u <ul> (parent)*/
+{
+    margin-left: 0px;
 }
 
 /*<><><> Home <><><>*/
