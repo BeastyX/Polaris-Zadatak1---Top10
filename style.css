@@ -13,10 +13,11 @@ body
 header
 {
     text-align: center;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding: 10px;
-
     font-size: 28px;
+    border-radius: 20px;
+    border-bottom: 2px solid  rgb(83, 89, 223);
 }
 
 header h1
@@ -68,7 +69,7 @@ a
 
 #container-main
 {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     text-align: center;
 
 
@@ -78,15 +79,39 @@ a
 {
     padding: 10px 20px;
     width: 500px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: inline-block;
     text-align: center;
     margin: 20px 10px 20px 0;
+    border-radius: 20px;
+    transition: 1.2s;
+}
+
+.movie-box:hover
+{
+    box-shadow: 5px 5px 10px rgb(113, 93, 242);
+    transition: 0.7s;
+    border: 0 2px 2px 0 solid rgb(113, 93, 242);
 }
 
 .movie-img
 {
+    border-radius: 20px;
+    padding: 10px;
     width: 450px;
+    height: 670px;
+}
+
+.title
+{
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.disc
+{
+    font-size: 20px;
 }
 
 svg
