@@ -204,7 +204,7 @@ svg
 .rating
 {
     font-size: 50px;
-    margin-top: 120px;
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 
@@ -213,4 +213,37 @@ svg
     font-size: 21px;
     width: 50%;
     margin: auto;
+    margin-top: 100px;
+}
+
+.similar-movies-container
+{
+    margin: 50px auto;
+    margin-top: 100px;
+    width: 70%;
+    /* border: 1px red solid; */
+}
+
+.similar-movies-upper
+{
+    margin: 20px auto;
+}
+
+.similar-movie
+{
+    display: inline-block;
+    /* border: 1px red solid; */
+}
+
+.similar-movie-title
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.similar-movie-img
+{
+    height:600px;
+    border-radius: 15px;
+    margin: 20px 10px 20px 0;
 }
